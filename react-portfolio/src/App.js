@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, NavbarBrand } from 'react-bootstrap';
+import './App.css'
 
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -7,8 +8,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
     <div className='App'>
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="myBlack" variant="dark">
         <Navbar.Brand>
+
           Logo
         </Navbar.Brand>
       </Navbar>

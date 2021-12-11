@@ -1,6 +1,7 @@
 import React from 'react';
+import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 // Here we are importing a CSS file as a dependency
-import '../styles/Header.css';
+// import '../styles/Header.css';
 
 function Header() {
   return (
