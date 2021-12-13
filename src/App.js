@@ -15,7 +15,10 @@ function App() {
       <Header />
       <About />
       <Projects />
-      <Footer />
+      <br/>
+      <div position="fixed-bottom">
+        <Footer />  
+      </div>
     </div>
   );
 }
