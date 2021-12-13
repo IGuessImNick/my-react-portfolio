@@ -1,3 +1,8 @@
 .bg-myBlack {
     background-color: #111111;
 }
+
+.App {
+    background-color: grey;
+    height: 100vh;
+}

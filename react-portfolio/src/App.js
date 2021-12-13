@@ -1,6 +1,10 @@
 import React from 'react';
-import { Navbar, NavbarBrand } from 'react-bootstrap';
+// import { Navbar, NavbarBrand } from 'react-bootstrap';
 import './App.css'
+import Header from './components/Header';
+import About from './components/About';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -8,12 +12,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
     <div className='App'>
-      <Navbar bg="myBlack" variant="dark">
-        <Navbar.Brand>
-
-          Logo
-        </Navbar.Brand>
-      </Navbar>
+      <Header />
+      <About />
+      <Projects />
+      <Footer />
     </div>
   );
 }
