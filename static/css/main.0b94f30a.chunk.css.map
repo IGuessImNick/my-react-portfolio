@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,YACI,qBACJ,CAEA,KACI,qBAAsB,CACtB,YACJ","file":"main.0b94f30a.chunk.css","sourcesContent":[".bg-myBlack {\r\n    background-color: #111111;\r\n}\r\n\r\n.App {\r\n    background-color: grey;\r\n    height: 100vh;\r\n}"]}
